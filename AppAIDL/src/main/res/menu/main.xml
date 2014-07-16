@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+    <item android:id="@+id/list_view"
+        android:title="@string/list_view"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/grid_view"
+        android:title="@string/grid_view"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

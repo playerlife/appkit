@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sys_name"
+        android:title=""
+        android:alphabeticShortcut="n" />
+    <item
+        android:id="@+id/author"
+        android:title=""
+        android:alphabeticShortcut="r" />
+    <item
+        android:id="@+id/create_time"
+        android:title=""
+        android:alphabeticShortcut="g" />
+    <item
+        android:id="@+id/modify_time"
+        android:title=""
+        android:alphabeticShortcut="b" />
+    <item
+        android:id="@+id/version"
+        android:title=""
+        android:alphabeticShortcut="d" />
+
+</menu>

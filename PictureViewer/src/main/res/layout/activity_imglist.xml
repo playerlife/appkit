@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    >
+
+    <ViewFlipper
+        android:id="@+id/filpper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:persistentDrawingCache="animation"
+        android:flipInterval="1000">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/pre"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ImageView>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/target"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ImageView>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></ImageView>
+    </ViewFlipper>
+
+    <Button
+        android:text="&lt;"
+        android:onClick="prev"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:alpha="0.5"
+        android:id="@+id/left_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="auto"
+        android:text="自动播放" />-->
+
+    <Button
+        android:text="&gt;"
+        android:onClick="next"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:alpha="0.5"
+        android:id="@+id/right_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+</RelativeLayout>

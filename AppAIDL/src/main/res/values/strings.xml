@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppKit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="list_view">列表视图</string>
+    <string name="grid_view">表格视图</string>
+
+</resources>
